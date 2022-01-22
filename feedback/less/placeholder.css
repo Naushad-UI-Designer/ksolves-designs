@@ -1,0 +1,27 @@
+.ks_semi_bold_font {
+  font-weight: 600;
+}
+.ks_midium_font {
+  font-weight: 500;
+}
+.ks_normal_font {
+  font-weight: 400;
+}
+.text_right {
+  text-align: right;
+}
+.capitalize_text {
+  text-transform: capitalize;
+}
+.uppercase_text {
+  text-transform: uppercase;
+}
+.position-relative {
+  position: relative;
+}
+.ks_border_rad_10 {
+  border-radius: 10px;
+}
+.ks_pbt_40 {
+  padding: 40px 0px;
+}

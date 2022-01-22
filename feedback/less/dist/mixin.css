@@ -1,0 +1,80 @@
+.ks_position_relative {
+  position: relative;
+}
+.ks_position_absolute {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+.flex_end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex_start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ks_list_none {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.ks_horizental_list {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+.ks_nav_line {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background: #E02B4A;
+  width: 100%;
+}
+.mbt_5 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.mbt_0 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+textarea {
+  min-height: 150px;
+}
+.submit_btn {
+  background: #E02B4A;
+  border-radius: 3px;
+  width: 125px;
+  color: #fff;
+  border: 0px;
+  padding: 10px;
+  font-size: 16px;
+}
+.ks_card_btns {
+  background: #FFFFFF;
+  border: 1px solid #D3D2D2;
+  border-radius: 4px;
+  color: #444445;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding: 8px 0px;
+  margin: 8px 0px;
+  text-decoration: none;
+}

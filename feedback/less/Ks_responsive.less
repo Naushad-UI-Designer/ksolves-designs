@@ -1,0 +1,729 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    @ks_banner_font: 24px;
+    @font_16: 14px;
+    @font_12: 12px;
+    @font_20: 18px;
+    @font_18: 18px;
+    @font_25:20px;
+    @font_30:25px;
+    @font_22: 20px;
+    @font_14: 14px;
+    @font_72: 36px !important;
+
+    .ks_banner_section {
+
+        .ks_banner_text {
+
+            h3 {
+                font-size: @ks_banner_font;
+
+            }
+        }
+    }
+
+    .ks_social_links {
+        height: 100%;
+
+        ul {
+            .ks_list_none();
+            .ks_horizental_list();
+
+            li {
+                a {
+                    font-size: @font_12;
+
+
+                }
+
+            }
+        }
+    }
+
+    // Tabs Section
+    .ks_tabs_section {
+        .ks_navs {
+            .ks_tabs {
+                .ks_list_none();
+
+                li {
+                    font-size: @font_12  !important;
+                    padding: 10px 8px !important;
+
+
+                }
+
+
+
+            }
+        }
+
+        .ks_tabs_content {
+            .tab-content {
+                display: none;
+            }
+
+            .ks_content_tab_in {
+
+
+                .ks_content_text {
+
+
+                    h3 {
+                        font-size: @font_72;
+
+                    }
+
+                    h5 {
+                        font-size: @font_20;
+
+                    }
+                }
+            }
+
+            .tab-content.current {
+                display: inherit;
+            }
+        }
+
+
+        .ks_popup {
+
+
+            .floating-label {
+                font-size: @font_16;
+
+            }
+
+
+
+        }
+
+        // End here
+        .ks_related_product {
+            padding: 10px 0px !important;
+
+            h3 {
+                font-size: @font_22;
+
+
+            }
+
+            .owl-carousel {
+                position: relative;
+
+                button {
+
+                    font-size: @font_18;
+
+
+                }
+            }
+
+            .ks_card {
+
+                .ks_card-title {
+
+                    font-size: @font_18;
+
+
+                }
+
+                .ks_card-text {
+                    font-size: @font_14;
+
+                }
+
+                .ks_rating {
+
+                    font-size: @font_14;
+
+
+                }
+
+                .ks_price {
+
+                    .ks_discount_amt {
+
+                        font-size: @font_17;
+
+
+
+                    }
+
+                    .ks_actual_price {
+
+                        font-size: @font_14;
+
+
+                    }
+
+                    .ks_percentage_off {
+
+                        font-size: @font_16;
+
+
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+    .owl-nav {
+        button {
+            bottom: 20%;
+        }
+
+        .owl-prev {
+            right: 10px !important;
+        }
+
+        .owl-next {
+            left: 10px !important;
+        }
+    }
+    .ks_order_change{
+        order: 3 !important;
+    }
+    .modal-wrapper {
+        position:fixed !important;
+        left:0px;
+        width:100%;
+        top:0px;
+        bottom:0px;
+        right:0px;
+    }
+    .ks_searchbar {
+        padding:15px 0px !important;
+        .ks_short_show {
+         
+        margin:10px 0px;
+         justify-content:space-between !important;
+         
+        }
+        .ks_form-control {
+        
+         min-height:40px;
+     }
+        .ks_input-group-append {
+            >button {
+                
+                min-height:40px;
+            }
+          
+        }
+     }
+     .ks_related_product { 
+        margin:10px 0px;
+        .ks_pagination {
+            .ks_page-link {
+                padding:0.40rem 0.50rem !important;
+                font-size:@font_14;
+            }
+        }
+     }
+     .ks_ratings_overview {
+         padding:15px 0px !important;
+         .ks_ratings_line {
+             ul{
+                display: block !important;
+                li{
+                    &:not(:last-child):after  {
+                       
+                       
+                        height: 2px  !important;
+                        width: 50%  !important;
+                        left: 0px !important;
+                        bottom: 0px !important;
+                        background:@text_color_3;
+                        top:unset !important;
+                    }
+                }
+         }
+        }
+     
+     .ks_overview {
+        .ks_proimg {
+            border-right:none !important;
+            border-bottom:@ks_common_border;
+        }
+        .ks_content_overview {
+            h3 {
+               font-size:@font_20 !important
+            }
+            p {
+               font-size:@font_14 !important;
+            }
+         }
+         .ks_review_rating {
+            background-color: @text_white;
+            padding: 15px 0px;
+            h3 {
+                font-size:@font_25 !important;
+            }
+            h4 {
+                font-size:@font_30 !important;
+      
+            }
+            h5{
+                font-size:@font_14 !important;
+               
+      
+            }
+          
+            p {
+               .ks_common_text();
+            }
+          
+      
+      
+         }
+     }
+     .ks_policy {
+        .ks_policy_tabs {
+           
+           li, p{
+              font-size: @font_16 !important;
+           }
+        }
+        .ks_tabs_content  {
+            p {
+                font-size:@font_16 !important;
+            }   
+        }
+    }
+    .ks_review_rating {
+        background-color: @text_white;
+        padding: 15px 0px;
+        h3 {
+           font-size: @font_30 !important;
+        }
+        h4 {
+            font-size: @font_25 !important;
+  
+        }
+        h5{
+            font-size:@font_16 !important;
+            
+  
+        }
+        
+        p {
+            font-size:@font_16 !important;
+        }
+      
+        
+        .ks_table{
+            td{
+                font-size:@font_16 !important; 
+            }
+        }
+  
+     }
+     }
+     .ks_contact {
+        padding: 20px 0px !important;
+       
+        .ks_address {
+           h3 {
+              font-size: @font_30 !important;
+            
+           }
+           >p,
+           a {
+              color: @ks_address;
+              font-size: @font_16 !important;
+           
+              line-height: 24px;
+              display: flex;
+              span:first-child {
+                 margin-right: 10px;
+              }
+           }
+        }
+        .ks_country_links {
+           margin: 40px 0px;
+          
+        }
+        .ks_contact_form {
+           background: #FFFFFF;
+           border-radius: 20px;
+           padding: 15px;
+           h3 {
+              color: @text_color_6;
+              font-size: @font_25 !important;
+             
+           }
+         
+           .ks_form-group{
+               margin-bottom:1.2rem;
+           }
+        }
+     }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 768px) {
+
+    @ks_banner_font: 32px;
+    @font_16: 16px;
+    @font_12: 14px;
+    @font_20: 18px;
+    @font_25:20px;
+    @font_30:25px;
+    @font_18: 18px;
+    @font_22: 20px;
+    @font_14: 16px;
+    @font_72: 45px !important;
+
+    .ks_order_change {
+        order: 3;
+    }
+
+    .ks_banner_section {
+
+        .ks_banner_text {
+
+            h3 {
+                font-size: @ks_banner_font;
+
+            }
+        }
+    }
+
+    .ks_social_links {
+        height: 100%;
+
+        ul {
+            .ks_list_none();
+            .ks_horizental_list();
+
+            li {
+                
+                a {
+                    font-size: @font_12;
+                   
+                  }
+
+            }
+        }
+    }
+
+    // Tabs Section
+    .ks_tabs_section {
+        .ks_navs {
+            .ks_tabs {
+                .ks_list_none();
+
+                li {
+                    font-size: @font_12  !important;
+                    padding: 10px 8px !important;
+                 }
+
+                 }
+        }
+
+        .ks_tabs_content {
+            .tab-content {
+                display: none;
+            }
+
+            .ks_content_tab_in {
+
+
+                .ks_content_text {
+
+
+                    h3 {
+                        font-size: @font_72;
+
+                    }
+
+                    h5 {
+                        font-size: @font_20;
+
+                    }
+                }
+            }
+
+            .tab-content.current {
+                display: inherit;
+            }
+        }
+
+
+        .ks_popup {
+
+
+            .floating-label {
+                font-size: @font_16;
+
+            }
+
+
+
+        }
+
+        // End here
+        
+        .ks_related_product {
+            padding: 0px 0px !important;
+
+            h3 {
+                font-size: @font_22;
+
+
+            }
+
+            .owl-carousel {
+                position: relative;
+
+                button {
+
+                    font-size: @font_18;
+
+
+                }
+            }
+
+            .ks_card {
+
+                .ks_card-title {
+
+                    font-size: @font_18;
+
+
+                }
+
+                .ks_card-text {
+                    font-size: @font_14;
+
+                }
+
+                .ks_rating {
+
+                    font-size: @font_14;
+
+
+                }
+
+                .ks_price {
+
+                    .ks_discount_amt {
+
+                        font-size: @font_17;
+
+
+
+                    }
+
+                    .ks_actual_price {
+
+                        font-size: @font_14;
+
+
+                    }
+
+                    .ks_percentage_off {
+
+                        font-size: @font_16;
+
+
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+    .owl-nav {
+        button {
+            bottom: 20%;
+        }
+
+        .owl-prev {
+            right: 15px !important;
+        }
+
+        .owl-next {
+            left: -15px !important;
+        }
+
+    }
+    .ks_related_product { 
+        margin:10px 0px;
+        .ks_pagination {
+            .ks_page-link {
+                padding:0.40rem 0.50rem !important;
+                font-size:@font_14;
+            }
+        }
+     }
+     .ks_ratings_overview {
+         padding:15px 0px !important;
+         .ks_ratings_line {
+             ul{
+                flex: 0 0 100% !important;;
+                max-width: 100% !important;;
+             }
+    
+        }
+     
+     .ks_overview {
+        .ks_proimg {
+            border-right:none !important;
+            border-bottom:@ks_common_border;
+        }
+        .ks_content_overview {
+            h3 {
+               font-size:@font_20 !important
+            }
+            p {
+               font-size:@font_14 !important;
+            }
+         }
+         .ks_review_rating {
+            background-color: @text_white;
+            padding: 15px 0px;
+            h3 {
+                font-size:@font_25 !important;
+            }
+            h4 {
+                font-size:@font_30 !important;
+      
+            }
+            h5{
+                font-size:@font_14 !important;
+               
+      
+            }
+          
+            p {
+               .ks_common_text();
+            }
+          
+      
+      
+         }
+     }
+     .ks_policy {
+        .ks_policy_tabs {
+           
+           li, p{
+              font-size: @font_16 !important;
+           }
+           li{
+               
+            padding: 10px 8px !important;;
+           }
+        }
+        .ks_tabs_content  {
+            p {
+                font-size:@font_16 !important;
+            }   
+        }
+    }
+    .ks_review_rating {
+        background-color: @text_white;
+        padding: 15px 0px;
+        h3 {
+           font-size: @font_30 !important;
+        }
+        h4 {
+            font-size: @font_25 !important;
+  
+        }
+        h5{
+            font-size:@font_16 !important;
+            
+  
+        }
+        
+        p {
+            font-size:@font_16 !important;
+        }
+      
+        
+        .ks_table{
+            td{
+                font-size:@font_16 !important; 
+            }
+        }
+  
+     }
+     }
+     .ks_tabs_section .ks_popup .modal-wrapper {
+         width:480px !important;
+     }
+     .ks_contact {
+        padding: 20px 0px !important;
+       
+        .ks_address {
+           h3 {
+              font-size: @font_30 !important;
+            
+           }
+           >p,
+           a {
+              color: @ks_address;
+              font-size: @font_16 !important;
+           
+              line-height: 24px;
+              display: flex;
+              span:first-child {
+                 margin-right: 10px;
+              }
+           }
+        }
+        .ks_country_links {
+           margin: 40px 0px;
+          
+        }
+        .ks_contact_form {
+           background: #FFFFFF;
+           border-radius: 20px;
+           padding: 15px;
+           h3 {
+              color: @text_color_6;
+              font-size: @font_25 !important;
+             
+           }
+         
+           .ks_form-group{
+               margin-bottom:1.2rem;
+           }
+        }
+     }
+
+}
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) and (max-width: 991.98px) {  }
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .ks_tabs_section, .ks_tabs_content, .tab-content, .ks_contact {
+        height:100%;
+      
+        
+      }
+ }
+
+ @media (min-width: 1300px) {
+    .ks_content_tab_in>img {
+        display: block;
+        margin: 0 auto;
+    }
+    .ks_banner >img {
+        display: block;
+        margin: 0 auto;  
+    }
+   
+   }
