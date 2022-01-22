@@ -1,0 +1,292 @@
+/* Custom CSS*/
+
+/* css for custom mega menu header*/
+.style.menu, .style-1.menu ul li{
+    background-color: #fff;
+    border-top: solid 1px #e4e4e4;
+  }
+  
+  .menu ul li a {
+    display: block;
+    padding: 14px 20px 15px 20px;
+    font-family: 'raleway', arial, sans-serif;
+    color: #8dc63f;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /*  css for mega menu */
+  @font-face {
+    font-family: 'raleway';
+    src: url(fonts/raleway/raleway.ttf) format('truetype');
+    src: url(fonts/raleway/raleway.otf) format('opentype');
+    src: url(fonts/raleway/raleway.woff) format('woff');
+  }
+  .menu {
+    display: block;
+    position: relative;
+  }
+  .menu,
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative
+  }
+  .menu ul a {
+    float: left
+  }
+  .menu .mega-menu a {
+    float: none;
+    padding: 0
+  }
+  .menu .mega-menu,
+  .menu .mega-menu ol li {
+    opacity: 0;
+    visibility: hidden;
+    display: none ! important;
+  }
+  .menu li:hover>.mega-menu,
+  .menu li:hover>.mega-menu ol li {
+    opacity: 1;
+    visibility: visible;
+    display: block ! important;
+  }
+  .menu ul:after {
+    content: "";
+    clear: both;
+    display: block
+  }
+  .menu ul li {
+    float: left;
+  }
+  /*Main heading css*/
+  
+  .menu ul li a {
+    display: block;
+    padding: 14px 20px 15px 20px;
+    font-family: 'raleway', arial, sans-serif;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none
+  }
+  /*dropdown section css*/
+  
+  .mega-menu {
+    position: absolute;
+    top: 100%;
+    padding: 18px 11px;
+    background-color: rgba(0, 0, 0, .8)
+  }
+  .mega-menu ol {
+    list-style: none;
+    padding: 0
+  }
+  .mega-menu ol li {
+    width: 100%;
+  }
+  /*dropdown section text css*/
+  
+  .mega-menu ol li a {
+    font-size: .9em;
+    line-height: 18px;
+  }
+  .mega-menu ol li:hover,
+  .mega-menu ol li a {
+    color: #fff;
+    padding: 0;
+    background-image: none
+  }
+  /*sub header css*/
+  
+  .mega-menu div h4 {
+    font-family: 'raleway', arial, sans-serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #f7b50d;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0 0 8px 0;
+    margin: 0 0 10px 0
+  }
+  .mega-menu .col-1 {
+    width: 135px
+  }
+  .mega-menu .col-1 {
+    float: left;
+    margin: 0 9px
+  }
+  @media only screen and (max-width: 767px) {
+    .menu ul li {
+      width: 100%;
+    }
+    .menu ul li {
+      position: relative
+    }
+    .menu .mega-menu ol li {
+      height: 0
+    }
+    .menu li:hover>.mega-menu ol li {
+      height: auto
+    }
+    .mega-menu,
+    .menu ul ul {
+      z-index: 100
+    }
+    .mega-menu {
+      padding: 18px 0
+    }
+    .mega-menu ol li:last-child {
+      margin: 0 0 10px 0
+    }
+    .menu .col-1 {
+      float: left;
+      margin: 0 0 0 5%;
+      width: 90%
+    }
+  }
+  /*Also main heading css*/
+  
+  .style.menu,
+  .style-1.menu ul li {
+    background-color: #333;
+    border-top: 1px solid #f7b50d;
+    border-bottom: 1px solid #f7b50d;
+  }
+  .style.menu ul li a:hover {
+    color: #f7b50d;
+  }
+  /* new css */
+  
+  .menu-btn {
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    .menu.style {
+      padding: 15px 0;
+    }
+    .menu-btn {
+      display: block;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    ul.menu {
+      display: none;
+    }
+    .open ul.menu {
+      display: block;
+    }
+    .menu li:hover > .mega-menu {
+      position: static;
+    }
+  }
+  .menu-btn div {
+    position: absolute;
+    left: 100%;
+    top: 64%;
+    padding-right: 8px;
+    margin-top: -0.50em;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 200;
+    vertical-align: middle;
+    z-index: 99;
+  }
+  .menu-btn span {
+    display: block;
+    width: 19px;
+    height: 3px;
+    margin: 4px 0;
+    background: rgb(0, 0, 0);
+    z-index: 99;
+  }
+  
+  @media only screen and (max-width: 767px){
+    .menu li:hover .mega-menu{position:static;}
+  }
+  
+  /* css for top */
+  .top{
+      margin-left: auto;
+      margin-right: auto;
+      color: #989898;
+      font-size: 14px;
+  }
+  
+  .top .top-div1{
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+      text-align: center;
+  }
+  
+  .top .top-div2{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    text-align: center;
+  }
+  
+  .top .top-div2 .sel-lang{
+    padding: 3px 5px 3px 0px;
+  }
+  
+  .top .top-div2 .store-location-div{
+    border-left: solid 1px #989898;
+  }
+  
+  .top .top-div2 .phone-div{
+    border-left: solid 1px #989898;
+  }
+  
+  .top .top-div2 .phone-div-img{
+  margin-bottom: -3px;
+  }
+  
+  .top .top-div2  .store-location-img{
+    margin-bottom: -3px;
+  }
+  
+  /* common css */
+  .d-flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .align-items-center{
+    align-items: center;
+  }
+  
+  .text-align{
+    text-align: center;
+  }
+  
+  .mb-0{
+    margin-bottom: 0px;
+  }
+  
+  .mt-0{
+    margin-top: 0px;
+  }
+  
+  .mr-0{
+    margin-right: 0px;
+  }
+  
+  .ml-0{
+    margin-bottom: 0px;
+  }
+  
+  .pr-4{
+    padding-right: 1.5rem;
+  }
+  
+  .pl-4{
+    padding-left: 1.5rem;
+  }
+  
