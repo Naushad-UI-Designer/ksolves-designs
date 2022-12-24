@@ -1,0 +1,16 @@
+/* custom css */
+
+.ks-secondry-heading {
+	font-size: calc(1.2875rem + 0.45vw);
+}
+.ks-oddo-guidelines {
+	background-color: #f8f9fa;
+}
+.ks-oddo-main-heading {
+	background-color: #00a09d;
+    color: #fff;
+    padding: 10px 15px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 0px 10px 10px;
+}
